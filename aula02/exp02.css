@@ -1,0 +1,34 @@
+*{
+    margin: 40px;
+    padding: 50px;
+}
+
+h1{
+
+    background-color: aqua;
+}
+
+.stilo {
+
+    background-color: yellowgreen;
+}
+
+.conteudo {
+    background-color: yellowgreen;
+    height: 30px;
+
+}
+.conteudo p{
+    background-color: red;
+
+}
+.conteudo #titulo{
+    font-size: 50px;
+}
+
+p{
+    background-color: blue;
+    color: aliceblue;
+
+}
+
