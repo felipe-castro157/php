@@ -1,0 +1,48 @@
+
+.box1{
+    height: 200px;
+    padding: 10px;
+    background-color: #ff6047;
+}
+.box2{
+    height: 200px;
+    background-color: violet;
+    padding-top: 50px;
+}
+.box3{
+    height: 200px;
+    background-color: rgba(106, 90, 205, 1);    
+}
+.box4{
+    height: 200px;
+    background-color: rgb(38, 16, 179);    
+}
+#box11{
+    font-size: 40px;
+    padding: 30px;
+    margin-left:375px;
+    background-color: aqua;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+#px {
+    padding: 30px;;
+    background-color: darkred;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-left: 525px;
+    margin-top: -20px;
+    
+    
+}
+#px1 {
+    padding: 30px;
+    background-color: darkred;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: -105px;
+}
