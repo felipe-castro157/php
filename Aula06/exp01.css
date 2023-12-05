@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(179, 174, 174);
+}
+.box1{
+    border: solid blue 6px;
+    display: grid;
+    height: 500px;
+    grid-template-areas: "Header Header Header"
+                         "menu  main   Right"
+                         "menu  Footer Footer" ;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.Header{
+    background-color: rgb(125, 125, 250);
+    grid-area: Header;
+    border: 6px blue solid;
+
+}
+
+.menu{
+    background-color: rgb(125, 125, 250);
+    grid-area: menu;
+    border: 6px blue solid;
+}
+.main{
+    background-color: rgb(125, 125, 250);
+    grid-area: main;
+    border: 6px blue solid;
+}
+
+.Footer{
+    background-color: rgb(125, 125, 250);
+    grid-area: Footer;
+    border: 6px blue solid;
+}
+
+.Right{
+    background-color: rgb(125, 125, 250);
+    grid-area: Right;
+    border: 6px blue solid;
+}

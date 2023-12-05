@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(83, 81, 81);
+}
+
+.caixa{
+    border: solid blue 6px;
+    display: grid;
+    height: 500px;
+    grid-template-areas: "1 2 3"
+                         "4 5 6"
+                         "7 8 9";
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 60% 20%;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 1;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 2;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 3;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 4;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 5;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 6;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 7;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 8;
+}
+
+.n1{
+    background-color: ;
+    grid-area: 9;
+}
