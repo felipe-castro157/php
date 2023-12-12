@@ -1,0 +1,31 @@
+.caixa1{
+    border: solid blue 6px;
+    width: 1000px;
+    display: grid;
+    height: 500px;
+    grid-template-areas: "topo   topo  topo"
+                         "ce     cp      cd"
+                         "rdp    rdp    rdp";
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 1fr 200px;
+}
+
+.topo{
+    background-color: rgb(125, 125, 250);
+    grid-area: Header;
+    border: 6px blue solid;
+
+}
+
+.ce{
+    background-color: rgb(125, 125, 250);
+    grid-area: menu;
+    border: 6px blue solid;
+}
+.cp{
+    background-color: rgb(125, 125, 250);
+    grid-area: cp;
+    border: 6px blue solid;
+}
+
+
