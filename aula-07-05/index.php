@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>array: definiçao explicita</h2>
-    <pre>
-       <?php
+ <h2>array: definiçao explicita</h2>
+ <pre>
+  <?php
          $var [0]= "desenvolvimento";
          $var [1]= "web";
          $var [2]= "II";
@@ -68,23 +68,26 @@
        <pre>
           <?php
 
-         $var = array("felipe"=>90 , "leticia"=>7 , "luna"=>9 ); 
+         $var = array("felipe"=>9.9 , "leticia"=>5 , "luna"=>9 ); 
 
          foreach ($var as $chave => $valor){
-            if ($valor>10){
-            echo "<br> $chave = ";
-            echo $valor;
-            }
+            if ($valor>6){
+            echo "alunos aprovados";
+            echo "o aluno: $chave <br>";
+            echo "obteve a nota : $valor <br>";
+          } else if($valor<6 && $valor >= 4){
+            echo "alunos recuperacao";
+            echo "o aluno: $chave <br>";
+            echo "obteve a nota : $valor <br>";
+          } else {
+            echo "alunos recuperacao";
+            echo "o aluno: $chave <br>";
+          }
          }
 
        ?>
 
        </pre>
        
-
- 
-
-
-
 </body>
 </html>
